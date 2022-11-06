@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace _08.AdvertisementMessage
+namespace _1.AdvertisementMessage
 {
     class Program
     {
@@ -31,10 +31,10 @@ namespace _08.AdvertisementMessage
             {
                 Random rand = new Random();
 
-                string phrase = phrases[rand.Next(0, phrases.Count - 1)];
-                string @event = events[rand.Next(0, events.Count - 1)];
-                string author = authors[rand.Next(0, authors.Count - 1)];
-                string city = cities[rand.Next(0, cities.Count - 1)];
+                string phrase = phrases[rand.Next(0, phrases.Count)];
+                string @event = events[rand.Next(0, events.Count)];
+                string author = authors[rand.Next(0, authors.Count)];
+                string city = cities[rand.Next(0, cities.Count)];
 
                 messages.Add(new Message(phrase, @event, author, city));
             }
