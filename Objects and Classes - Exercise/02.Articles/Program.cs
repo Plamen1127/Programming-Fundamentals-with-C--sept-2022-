@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace _09.Articles
+namespace _02.Articles
 {
     class Program
     {
